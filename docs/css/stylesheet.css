@@ -1,0 +1,123 @@
+#wrapper {
+    width: 960px;
+}
+
+#left {
+    width: 593px;
+}
+
+#right {
+    width: 366px;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float: right;
+}
+
+#circle {
+    width: 366px;
+    height: 366px;
+    border-radius: 50%;
+}
+
+.shape {
+    width: 543px;
+    float: left;
+    shape-outside: circle(50%);
+    shape-margin: 10px;
+}
+
+#content {
+    width: 100%;
+}
+
+.displayInline {
+    display: inline-block;
+}
+
+#main {
+    padding-top: 140px;
+}
+
+.fontRoboto {
+    font-family: "Roboto Material Black", sans-serif;
+    font-size: 16px;
+}
+
+.heading {
+    background: #00b506 -webkit-gradient(linear, left top, right top, from(#00b506), to(#00b506), color-stop(0.5, #ffffff)) 0 0 no-repeat;
+    color: rgba(255, 255, 255, 0.1);
+    font-size: 48px;
+    font-weight: bold;
+    position: relative;
+    -webkit-animation: shine 2s infinite;
+    -webkit-background-clip: text;
+    -webkit-background-size: 300px;
+}
+
+.topPaddingRight {
+    padding-top: 189px;
+}
+
+.itemMargin {
+    margin-top: 22px;
+    margin-right: 22px;
+    margin-left: 22px;
+    margin-bottom: 22px;
+}
+
+.menuSpacing {
+    padding-left: 11px;
+    padding-right: 11px;
+}
+
+#cards {
+    height: 254px;
+    padding-top: 37px;
+    padding-bottom: 37px;
+}
+
+#footer {
+    height: 253px;
+}
+
+.centerPadding {
+    padding-top: 74px;
+    padding-bottom: 74px;
+    padding-right: 120px;
+    padding-left: 120px;
+}
+
+.athleteCards {
+    height: 254px;
+    width: 157px;
+}
+
+.athleteSpacingLeft {
+    padding-left: 23px;
+}
+
+.athleteSpacingRight {
+    padding-right: 11px;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    height: 100px;
+    line-height: 100px;
+}
+
+.centerText {
+    line-height: 100%;
+}
+
+.footerCenter {
+    padding-left: 380px;
+    padding-right: 380px;
+}
+
